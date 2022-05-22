@@ -1,12 +1,12 @@
 <?php
 
-$pageFooter = ' 
-        </section>   
+$pageFooter = '
+        </section>
         <footer class="page__footer">
             <p>Assembler</p>
         </footer>
-    </main>    
-    
+    </main>
+
 </body>
 </html>';
 

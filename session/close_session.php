@@ -1,8 +1,7 @@
 
 <?php
     session_start();
-    include '../layout/page_header.php';
-    
+    require '../layout/page_header.php';
 
 // unset all session variables
 // can also use session_unset();
@@ -24,8 +23,9 @@ if (ini_get("session.use_cookies")) {
 
 // destroy the session
 session_destroy();
-header('Location:./index.php');
+header('Location:./index.php?logout=true');
 
 
-include '../layout/page_footer.php';
+require '../layout/page_footer.php';
+
 ?>

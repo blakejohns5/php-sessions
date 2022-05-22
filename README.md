@@ -1,8 +1,8 @@
-'#php-sessions' '#Assembler School'
+`#php-sessions` `#Assembler Institute`
 
-Pill Assignment for # Assembler School: [PHP SESSIONS WORKSHOP] Workshop 
+Pill Assignment for # Assembler Institute: [PHP SESSIONS WORKSHOP] Workshop 
 
-Completed following the Assembler School workshop:
+Completed following the Assembler Institute workshop:
 (https://github.com/assembler-institute/php-sessions-workshop)
 
 ## Table of Contents <!-- omit in toc -->
@@ -25,5 +25,5 @@ Completed following the Assembler School workshop:
 ## Resources
 
 [PHP Sessions](https://www.php.net/manual/es/reserved.variables.session.php)
-- [PHP Globals](https://www.php.net/manual/en/reserved.variables.globals.php)
-- [Assembler Sessions Workshop](https://github.com/assembler-institute/php-sessions-workshop)
+[PHP Globals](https://www.php.net/manual/en/reserved.variables.globals.php)
+[Assembler Sessions Workshop](https://github.com/assembler-institute/php-sessions-workshop)

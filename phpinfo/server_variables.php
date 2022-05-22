@@ -1,10 +1,10 @@
 <?php
-    include '../layout/page_header.php';
+    require '../layout/page_header.php';
 ?>
-    
+
     <!-- server analysis with $_SERVER -->
     <header class='task'>Using local PHP server variable $_SERVER</header>
-    
+
     <?php
     echo '<div class="answer">';
 
@@ -14,4 +14,4 @@
     echo '</div>';
 
 
-    include '../layout/page_footer.php';
+    require '../layout/page_footer.php';

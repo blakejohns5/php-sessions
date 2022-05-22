@@ -1,5 +1,5 @@
 <?php
-    include '../layout/page_header.php';
+    require '../layout/page_header.php';
 ?>
 
     <header class='task'>Start a session and dump the content of the $_SESSION variable.</header>
@@ -27,4 +27,4 @@
     echo '</div>';
    
 
-    include '../layout/page_footer.php';
+    require '../layout/page_footer.php';

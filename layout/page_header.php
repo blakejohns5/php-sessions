@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 $pageHeader = '
 <!DOCTYPE html>
 <html lang="en">

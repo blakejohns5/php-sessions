@@ -1,5 +1,5 @@
 <?php
-    include '../layout/page_header.php';
+    require '../layout/page_header.php';
 ?>
 
     <!-- sesion analysis with $_SESSION -->
@@ -54,5 +54,4 @@
     echo phpinfo();
     echo '</div>';
     
-     
-    include '../layout/page_footer.php';
+    require '../layout/page_footer.php';

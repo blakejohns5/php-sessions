@@ -3,6 +3,10 @@
     .panel {
       flex-direction: column;
   }
+
+  .validation__msg {
+    flex-direction: column;
+  }
   
   .validation {
       margin-top: 1rem;
@@ -19,13 +23,3 @@
   .fail {
       border: solid 0.2rem firebrick;
   }
-  
-  .logout__btn {
-      margin-top: 3rem;
-      font-size: 1.4rem;
-      padding: 1rem 2rem;
-      width: 12rem;
-      background-color: var(--color--lines);
-      color: white;
-  }
-  
