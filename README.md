@@ -24,7 +24,6 @@ Completed following the Assembler School workshop:
 
 ## Resources
 
-[PHP Sessions](https://www.php.net/manual/es/reserved.variables.session.
-php)
-[PHP Globals](https://www.php.net/manual/en/reserved.variables.globals.php)
-[Assembler Sessions Workshop](https://github.com/assembler-institute/php-sessions-workshop)
+[PHP Sessions](https://www.php.net/manual/es/reserved.variables.session.php)
+- [PHP Globals](https://www.php.net/manual/en/reserved.variables.globals.php)
+- [Assembler Sessions Workshop](https://github.com/assembler-institute/php-sessions-workshop)
