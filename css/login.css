@@ -1,0 +1,88 @@
+.login {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.login__form {
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+}
+
+.login h1 {
+    margin-bottom: 1.6rem;
+    /* font-weight:400; */
+    font-size: 1.4rem;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: 100%;
+}
+
+.label {
+    display: none;
+}
+
+input {
+    padding: 0.5rem;
+    min-width:14rem;
+    max-width: 30%;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.form__footer {
+    flex-direction: column;
+}
+
+.btn {
+    margin-top: 1.6rem;
+    width: fit-content;
+    padding: 0.4rem 3rem;
+    background-color: var(--color--lines);
+    color: white;
+    border: 0.1rem solid var(--color--header);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    border: 0.3rem solid var(--color--header);
+}
+
+
+    /* Validation and Panel */
+.panel {
+    flex-direction: column;
+}
+
+.validation {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+    width: fit-content;
+    padding: 1rem 3rem;
+  }
+
+.success {
+    border: solid 0.2rem var(--color--answer);
+  }
+
+.fail {
+    border: solid 0.2rem firebrick;
+}
+
+.logout__btn {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    width: 12rem;
+    background-color: var(--color--lines);
+    color: white;
+}

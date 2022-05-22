@@ -1,0 +1,31 @@
+
+    /* Validation and Panel */
+    .panel {
+      flex-direction: column;
+  }
+  
+  .validation {
+      margin-top: 1rem;
+      font-size: 1.6rem;
+      text-align: center;
+      width: fit-content;
+      padding: 1rem 3rem;
+    }
+  
+  .success {
+      border: solid 0.2rem var(--color--answer);
+    }
+  
+  .fail {
+      border: solid 0.2rem firebrick;
+  }
+  
+  .logout__btn {
+      margin-top: 3rem;
+      font-size: 1.4rem;
+      padding: 1rem 2rem;
+      width: 12rem;
+      background-color: var(--color--lines);
+      color: white;
+  }
+  

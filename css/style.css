@@ -1,0 +1,136 @@
+@import url('./login.css');
+@import url('./validation.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --color--header: #61A4bc;
+    --color--instr: #6b8ab8;
+    --color--lines: #2d3e58;
+    --color--answer: #7db15b;
+    --border-style: solid 0.3rem var(--color--instr);
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color--header);
+    position: sticky;
+    top: 0;
+    height: 8vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav__ul {
+    list-style: none;
+    display: flex;
+    justify-self: flex-start;
+    position: absolute;
+    left: 2rem;
+    background-color: var(--color--header);
+}
+
+.nav__text {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 0 1rem;
+    background-color: var(--color--header);
+
+  }
+
+.nav__ul li+li:before {
+    color: white;
+    content: ">";
+    font-weight: bold;
+  }
+
+.nav__text:hover {
+    color: var(--color--lines);
+    text-decoration: underline;
+}
+
+.nav__header {
+    position: absolute;
+    right: 2rem;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: var(--color--lines);
+}
+
+.content {
+    margin: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+
+}
+
+.task {
+    padding: 1rem;
+    background-color: var(--color--lines);
+    color: white;
+    font: bolder;
+    font-size: larger;
+    border-radius: 0.25rem 0.25rem 0 0 ;
+}
+
+.instr {
+    background-color: #DdDDDD;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 2rem 3rem;
+    border-radius: 0.25rem;
+}
+
+.answer {
+    margin-top: 1rem;
+    overflow-x: scroll;
+    background-color: rgb(240, 240, 240);
+    border-left: solid 0.4rem var(--color--answer);
+    padding: 1rem 2rem;
+    box-shadow: 0 0.05rem var(--color--answer);
+}
+
+.mark {
+    font-weight: bold;
+    color: var(--color--answer);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page__footer {
+    background-color: var(--color--header);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
