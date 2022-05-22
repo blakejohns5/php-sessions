@@ -17,7 +17,7 @@ Completed following the Assembler School workshop:
 - Basic design using .css was included, as well as use of 'include/require' to repeated use of headers and footers throughout the assignment.
 - The login system was added next, starting with the login page, followed by validation, panel and close_session pages.
 
-```
+
 ## Contents
 - Use of php, with external styles added in .css.
 
